@@ -1,0 +1,22 @@
+@import url(../vendor/normalize.css);
+
+/* Aqui é o meu normalizador da pagina  */
+@import url(../blocks/page.css);
+
+    /* Aqui começa o meu header  */
+@import url(../blocks/header.css);
+
+/* Aqui começa o meu bloco description  */
+@import url(../blocks/description.css);
+
+/* Aqui começa o meu bloco digits  */
+@import url(../blocks/digits.css);
+
+/* Aqui começa o meu bloco feyman  */
+@import url(../blocks/feyman.css);
+
+/* Aqui começa o meu bloco kaufman  */
+@import url(../blocks/kaufman.css);
+
+/* Aqui começa o meu bloco footer  */
+@import url(../blocks/footer.css);

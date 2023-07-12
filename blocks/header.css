@@ -1,0 +1,72 @@
+.header__logo {
+  width: 154px;
+  height: 31px;
+  position: absolute;
+  left: 64px;
+  top: 30px;
+  z-index: 4;
+}
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.header__title {
+  width: 730px;
+  margin: 0 0 0 64px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+  z-index: 3;
+}
+.header__subtitle{
+  margin: 0;
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  z-index: 2;
+}
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+  display: flex;
+}
+.header__main-illustration {
+  width: 756px;
+  height: 608px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+.header__square {
+  height: 568px;
+  width: 568px;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  z-index: 1;
+  transform: rotate(15deg);
+  background-color: #2f80ed;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(-15deg);
+  }
+  to {
+    transform: rotate(345deg);
+  }
+}
+
+.rotation {
+  animation: rotation 20s infinite linear;
+}
