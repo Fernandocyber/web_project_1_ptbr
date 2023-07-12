@@ -1,0 +1,23 @@
+.video {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px 0 0;
+  background-image: linear-gradient(
+    #fff 0px calc(100% - 60px),
+    #f2f2f2 calc(100% - 60px) calc(100%)
+  );
+}
+.iframes {
+  gap: 20px;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  margin: 50px auto 0;
+}
+.iframe__item {
+  width: 515px;
+  height: 316px;
+  border-style: none;
+}

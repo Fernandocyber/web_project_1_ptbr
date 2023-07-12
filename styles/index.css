@@ -9,6 +9,12 @@
 /* Aqui começa o meu bloco description  */
 @import url(../blocks/description.css);
 
+/* Aqui começa o meu bloco Techniques  */
+@import url(../blocks/Techniques.css);
+
+/* Aqui começa o meu bloco videos  */
+@import url(../blocks/videos.css);
+
 /* Aqui começa o meu bloco digits  */
 @import url(../blocks/digits.css);
 
@@ -20,3 +26,4 @@
 
 /* Aqui começa o meu bloco footer  */
 @import url(../blocks/footer.css);
+
