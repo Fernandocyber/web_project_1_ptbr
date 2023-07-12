@@ -15,14 +15,23 @@
 /* Aqui começa o meu bloco videos  */
 @import url(../blocks/videos.css);
 
-/* Aqui começa o meu bloco digits  */
-@import url(../blocks/digits.css);
+/* Aqui começa o meu bloco oakley  */
+@import url(../blocks/oakley.css);
 
 /* Aqui começa o meu bloco feyman  */
 @import url(../blocks/feyman.css);
 
+/* Aqui começa o meu bloco digits  */
+@import url(../blocks/digits.css);
+
+/* Aqui começa o meu bloco khan */
+@import url(../blocks/khan.css);
+
 /* Aqui começa o meu bloco kaufman  */
 @import url(../blocks/kaufman.css);
+
+/* Aqui começa o meu resources  */
+@import url(../blocks/resources.css);
 
 /* Aqui começa o meu bloco footer  */
 @import url(../blocks/footer.css);
