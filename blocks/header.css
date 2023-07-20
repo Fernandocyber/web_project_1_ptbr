@@ -38,7 +38,6 @@
 .header__link {
   text-decoration: none;
   color: #2f80ed;
-  display: flex;
 }
 .header__main-illustration {
   width: 756px;
